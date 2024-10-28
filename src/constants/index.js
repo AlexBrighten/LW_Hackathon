@@ -2,8 +2,8 @@ import {
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
+  benefitIcon4,
   benefitImage2,
-  brainwave,
   chromecast,
   disc02,
   discord,
@@ -33,30 +33,36 @@ import {
   sliders04,
   telegram,
   twitter,
+  yourlogo,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Home",
-    url: "#hero",
+    title: "Features",
+    url: "#features",
   },
   {
     id: "1",
-    title: "About",
-    url: "#about",
+    title: "Pricing",
+    url: "#pricing",
   },
   {
     id: "2",
-    title: "Themes",
-    url: "#themes",
+    title: "How to use",
+    url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Timeline",
-    url: "#timeline",
+    title: "Roadmap",
+    url: "#roadmap",
   },
-
+  {
+    id: "4",
+    title: "New account",
+    url: "#signup",
+    onlyMobile: true,
+  },
   {
     id: "5",
     title: "Sign in",
@@ -69,7 +75,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [brainwave, brainwave, brainwave, brainwave, brainwave];
+export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -261,7 +267,6 @@ export const benefits = [
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
-  
 ];
 
 export const socials = [

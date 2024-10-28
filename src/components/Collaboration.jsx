@@ -1,25 +1,19 @@
-// import { brainwaveSymbol, check } from "../assets";
-// import { collabApps, collabContent, collabText } from "../constants";
+import { brainwaveSymbol, check } from "../assets";
+import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
-    <Section id="features">
+    <Section crosses>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
-          <h2 className="h2 mt-40 mb-4 md:mb-8">
-            Overview
+          <h2 className="h2 mb-4 md:mb-8">
+            AI Chat App for seamless collaboration
           </h2>
 
-          <p className="body-2 mb-8 text-n-4 md:mb-12 lg:mb-8 lg:w-[35rem] lg:mx-auto">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus deleniti autem enim, accusantium dolorem consequuntur voluptatum tempore aspernatur optio quasi! Pariatur, at? Quibusdam voluptatum, cupiditate explicabo consectetur quis distinctio error!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat eveniet corrupti tempora quasi inventore, ullam officia numquam voluptates iure sed quae molestiae dignissimos, quidem dolores possimus iste! Quas, nisi.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptas fuga obcaecati suscipit similique dolorem optio temporibus sed magnam delectus nisi nobis ullam impedit officiis doloremque consectetur labore beatae esse?
-          </p>
-
-          {/* <ul className="max-w-[22rem] mb-10 md:mb-14">
+          <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
@@ -31,12 +25,12 @@ const Collaboration = () => {
                 )}
               </li>
             ))}
-          </ul> */}
+          </ul>
 
-          <Button>Join the Waitlist</Button>
+          <Button>Try it now</Button>
         </div>
 
-        {/* <div className="lg:ml-auto xl:w-[38rem] mt-4">
+        <div className="lg:ml-auto xl:w-[38rem] mt-4">
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
             {collabText}
           </p>
@@ -78,13 +72,13 @@ const Collaboration = () => {
                   </div>
                 </li>
               ))}
-            </ul> */}
+            </ul>
 
             <LeftCurve />
             <RightCurve />
           </div>
-        {/* </div> */}
-      {/* </div> */}
+        </div>
+      </div>
     </Section>
   );
 };

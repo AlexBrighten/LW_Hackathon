@@ -7,8 +7,7 @@ const Generating = ({ className }) => {
         className || ""
       } text-base`}
     >
-      <img className="w-5 h-5 mr-4" src={loading} alt="Loading" />
-      AI is generating
+      <h1 className="xl:hidden max-lg:text-xl max-lg:pb-2">sdfgsfdh</h1>
     </div>
   );
 };
