@@ -4,7 +4,7 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
-
+import { motion } from "framer-motion"; // Import Framer Motion
 
 const Benefits = () => {
   return (
@@ -16,13 +16,23 @@ const Benefits = () => {
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
-          {benefits.map((item) => (
-            <div
+          {benefits.map((item, index) => (
+            <motion.div
+              key={item.id}
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{
+                type: "spring",
+                stiffness: 90,
+                damping: 20,
+                duration: 1,
+                delay: index * 0.2,
+              }}
+              viewport={{ once: true }}
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
-              key={item.id}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
@@ -61,7 +71,7 @@ const Benefits = () => {
               </div>
 
               <ClipPath />
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

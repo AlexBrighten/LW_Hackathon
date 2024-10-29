@@ -5,6 +5,7 @@ import Tagline from "./Tagline";
 import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
+import { motion } from "framer-motion";
 
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
@@ -12,15 +13,25 @@ const Roadmap = () => (
       <Heading tag="Ready to get started" title="What we’re working on" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
-        {roadmap.map((item) => {
+        {roadmap.map((item, index) => {
           const status = item.status === "done" ? "Done" : "In progress";
 
           return (
-            <div
+            <motion.div
+              key={item.id}
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{
+                type: "spring",
+                stiffness: 90,
+                damping: 20,
+                duration: 1,
+                delay: index * 0.2,
+              }}
+              viewport={{ once: true }}
               className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
                 item.colorful ? "bg-conic-gradient" : "bg-n-6"
               }`}
-              key={item.id}
             >
               <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
                 <div className="absolute top-0 left-0 max-w-full">
@@ -61,7 +72,7 @@ const Roadmap = () => (
                   <p className="body-2 text-n-4">{item.text}</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
 

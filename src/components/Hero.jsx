@@ -61,7 +61,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="absolute -left-[5.5rem] bottom-[7.0rem] w-[14rem] xl:w-[18rem] max-lg:bottom-[4.0rem] max-lg:left-[-1.2rem] max-lg:hidden"
-                    title="Date and Time"
+                    title="Venue"
                   />
                 </ScrollParallax>
 
