@@ -1,6 +1,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
+import SponserButton from "../components/SponserButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
@@ -60,13 +61,18 @@ const Hero = () => {
             Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex">
+            <a href="#about" className="mx-5">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="#about">
+              <SponserButton title="Be a Sponser" icon={""} position="right" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
