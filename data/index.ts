@@ -146,7 +146,7 @@ export const testimonials = [
     title: "Youth Ambassador",
   },
   {
-    profileImg: "/profile.svg",
+    profileImg: "/mano.jpg",
     name: "Manavalan V",
     title: "Tech Lead",
   },
