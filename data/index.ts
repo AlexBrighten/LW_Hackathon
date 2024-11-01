@@ -108,37 +108,42 @@ export const projects = [
 export const testimonials = [
   {
     profileImg: "/profile.svg",
-    name: "Alex Job",
+    name: "Alex Job A",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Sathya Narayanan",
+    name: "Sathya Narayanan RS",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Nikil Paul",
+    name: "Nikil Paul S",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Roshan",
+    name: "Roshan SK",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Prasath",
+    name: "Prasath H",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Mohammed Vaseem",
+    name: "Mohammed Vaseem H",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Venkataraman",
+    name: "Venkataraman P",
+    title: "Youth Ambassador",
+  },
+  {
+    profileImg: "/profile.svg",
+    name: "Prasath H",
     title: "Youth Ambassador",
   },
   {
