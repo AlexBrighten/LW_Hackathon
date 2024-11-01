@@ -117,7 +117,7 @@ export const testimonials = [
   },
   {
     profileImg: "/profile.svg",
-    name: "Nikil Paul",
+    name: "Nikil Paul S",
     title: "Youth Ambassador",
   },
   {
