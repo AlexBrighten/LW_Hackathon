@@ -62,14 +62,14 @@ const Hero = () => {
           </p>
 
           <div className="flex">
-            <a href="#about" className="mx-5">
+            <a className="mx-5">
               <MagicButton
-                title="Show my work"
-                icon={<FaLocationArrow />}
+                title="Register Now!"
                 position="right"
+                icon={<FaLocationArrow />}
               />
             </a>
-            <a href="#about">
+            <a>
               <SponserButton title="Be a Sponser" icon={""} position="right" />
             </a>
           </div>
