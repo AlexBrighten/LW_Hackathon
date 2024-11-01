@@ -43,8 +43,8 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-100">
+            Initiated by SRM and organized by Team LiveWires
           </p>
 
           {/**
@@ -58,16 +58,12 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Initiated by SRM and organized by Team LiveWires.
           </p>
 
           <div className="flex">
             <a href="#about" className="mx-5">
-              <MagicButton
-                title="Show my work"
-                icon={<FaLocationArrow />}
-                position="right"
-              />
+              <MagicButton title="Register Now!" position="right" />
             </a>
             <a href="#about">
               <SponserButton title="Be a Sponser" icon={""} position="right" />
