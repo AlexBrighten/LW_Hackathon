@@ -9,12 +9,7 @@ const RecentProjects = () => {
   return (
     <div id="projects" className="py-20">
       <h1 className="heading">
-<<<<<<< HEAD
-        Join the <span className="text-purple">Hackfinity </span>
-        Community
-=======
         Join the <span className="text-purple">Hackfinity </span>Community
->>>>>>> ec4db94a28199b309fb1d4736d76411f555a2514
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
