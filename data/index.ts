@@ -79,7 +79,7 @@ export const projects = [
     title: "Join Our Discord Community",
     des: "Networks, Q&As, and discussions all in one place!",
     img: "/p1.svg",
-    link: "/ui.earth.com",
+    link: "https://www.google.com",
   },
   {
     id: 2,
@@ -87,7 +87,7 @@ export const projects = [
     des: "Get live updates, announcements, and event essentials instantly!",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://chat.whatsapp.com/GboONBqyNvRH1xaKxzgeNi",
   },
 ];
 
