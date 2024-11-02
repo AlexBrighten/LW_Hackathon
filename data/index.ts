@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "Overview", link: "#about" },
   { name: "Tracks", link: "#projects" },
-  { name: "Highlights", link: "#testimonials" },
   { name: "FAQ", link: "#contact" },
   { name: "Contacts", link: "#contact" },
 ];
@@ -9,9 +8,9 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Prize Pool of 2 Lakh INR",
+    title: "24-Hour Hackathon",
     description:
-      "Compete for a chance to win from an impressive prize pool, rewarding the most innovative and impactful projects.",
+      "Dive into an intensive, round-the-clock coding experience designed to test creativity, endurance, and collaboration.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -30,14 +29,15 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Keynote Sessions",
+    description: "Gain insights and inspiration from experts",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
     spareImg: "",
   },
+
   {
     id: 4,
     title: "Hands-On Mentor Hours",
@@ -52,8 +52,9 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Showcase and Recognition",
+    description:
+      "Present your solutions on a global stage and receive valuable feedback from judges and industry professionals.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -62,7 +63,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Real-World Problem Solving for Lasting Impact",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
