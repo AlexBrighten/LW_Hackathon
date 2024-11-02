@@ -32,21 +32,20 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-s text-center text-blue-100 max-w-120">
-            Initiated by SRMIST & Organized by Team LiveWires.
-          </p>
+          {/* <p className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-120"> */}
+          {/*  Initiated by SRMIST & Organized by Team LiveWires. </p> */}
 
           <TextGenerateEffect
             words="HackFinity 1.0"
-            className="text-center text-[48px] md:text-6xl lg:text-8xl"
+            className="text-center text-[48px] max-md:text-[40px] lg:text-8xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            03rd & 04th December 2024 | Venue : FSH, SRMIST
+          <p className="text-center md:tracking-wider mb-[50px] text-sm md:text-lg lg:text-2xl">
+            03rd & 04th December 2024 | Venue: FSH, SRMIST
           </p>
 
           <div className="flex">
-            <a href="#about" className="mx-5">
+            <a href="#about" className="mr-5" aria-label="Show my work">
               <MagicButton
                 title="Show my work"
                 icon={<FaLocationArrow />}
