@@ -12,7 +12,6 @@ import RecentProjects from "@/components/RecentProjects";
 import FAQSection from "@/components/FAQsection";
 import About from "@/components/About";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import Prize from "@/components/Prize";
 
 const Home = () => {
   return (
@@ -22,7 +21,6 @@ const Home = () => {
         <Hero />
         <About />
         <Approach />
-        <Prize />
         <Grid />
         <RecentProjects />
         <Clients />

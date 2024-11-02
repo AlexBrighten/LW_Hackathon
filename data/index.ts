@@ -9,9 +9,9 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "24-Hour Hackathon",
+    title: "Prize Pool of 2 Lakh INR",
     description:
-      "Dive into an intensive, round-the-clock coding experience designed to test creativity, endurance, and collaboration.",
+      "Compete for a chance to win from an impressive prize pool, rewarding the most innovative and impactful projects.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
