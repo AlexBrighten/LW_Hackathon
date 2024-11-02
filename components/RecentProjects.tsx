@@ -9,7 +9,7 @@ const RecentProjects = () => {
   return (
     <div id="projects" className="py-20">
       <h1 className="heading">
-        Join the <span className="text-purple">Hackfinity</span>
+        Join the <span className="text-purple">Hackfinity </span>
         Community
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
