@@ -1,13 +1,13 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
-import SponserButton from "./SponserButton";
+import SponserButton from "../components/SponserButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36 relative">
+    <div className="pb-20 pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -20,8 +20,14 @@ const Hero = () => {
         <Spotlight className="left-40 top-28 h-[40vh] w-[20vw]" fill="blue" />
       </div>
 
-      <div className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2] absolute top-0 left-0 flex items-center justify-center">
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+      <div
+        className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
+       absolute top-0 left-0 flex items-center justify-center"
+      >
+        <div
+          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
+         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+        />
       </div>
 
       <div className="flex justify-center relative my-20 z-10">
@@ -36,11 +42,11 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            03rd & 04th December 2024 | Venue: FSH, SRMIST
+            03rd & 04th December 2024 | Venue : FSH, SRMIST
           </p>
 
           <div className="flex">
-            <a href="#about" className="mx-5" aria-label="Show my work">
+            <a href="#about" className="mx-5">
               <MagicButton
                 title="Show my work"
                 icon={<FaLocationArrow />}
@@ -48,12 +54,8 @@ const Hero = () => {
               />
             </a>
 
-            <a href="#about" aria-label="Be a Sponsor">
-              <SponserButton
-                title="Be a Sponsor"
-                icon={<FaLocationArrow />}
-                position="right"
-              />
+            <a href="#about">
+              <SponserButton title="Be a Sponser" icon={""} position="right" />
             </a>
           </div>
         </div>
