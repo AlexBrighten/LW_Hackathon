@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "Overview", link: "#about" },
   { name: "Tracks", link: "#projects" },
-  { name: "Event Highlights", link: "#testimonials" },
+  { name: "Highlights", link: "#testimonials" },
   { name: "FAQ", link: "#contact" },
   { name: "Contacts", link: "#contact" },
 ];
@@ -9,8 +9,9 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: "24-Hour Hackathon",
+    description:
+      "Dive into an intensive, round-the-clock coding experience designed to test creativity, endurance, and collaboration.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -19,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Overview",
+    title: "Networking Opportunities",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -39,8 +40,9 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "Hands-On Mentor Hours",
+    description:
+      "Connect with mentors who’ll provide guidance, feedback, and support to help bring your ideas to life.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -108,47 +110,42 @@ export const projects = [
 export const testimonials = [
   {
     profileImg: "/profile.svg",
-    name: "Alex Job A",
+    name: "Alex Job",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Sathya Narayanan RS",
+    name: "Sathya Narayanan",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Nikil Paul S",
+    name: "Nikil Paul",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Roshan SK",
+    name: "Roshan",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Prasath H",
+    name: "Prasath",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Mohammed Vaseem H",
+    name: "Mohammed Vaseem",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/profile.svg",
-    name: "Venkataraman P",
-    title: "Youth Ambassador",
-  },
-  {
-    profileImg: "/profile.svg",
-    name: "Prasath H",
+    name: "Venkataraman",
     title: "Youth Ambassador",
   },
   {
     profileImg: "/mano.jpg",
-    name: "Manavalan V",
+    name: "Manavalan",
     title: "Tech Lead",
   },
   {

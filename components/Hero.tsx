@@ -58,18 +58,19 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Initiated by SRMIST & Organized by Team LiveWires.
           </p>
 
           <div className="flex">
-            <a className="mx-5">
+            <a href="#about" className="mx-5">
               <MagicButton
-                title="Register Now!"
-                position="right"
+                title="Show my work"
                 icon={<FaLocationArrow />}
+                position="right"
               />
             </a>
-            <a>
+
+            <a href="#about">
               <SponserButton title="Be a Sponser" icon={""} position="right" />
             </a>
           </div>
