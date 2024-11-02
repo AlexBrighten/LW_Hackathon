@@ -9,8 +9,7 @@ const RecentProjects = () => {
   return (
     <div id="projects" className="py-20">
       <h1 className="heading">
-        Join the <span className="text-purple">Hackfinity</span>
-        Community
+        Join the <span className="text-purple">Hackfinity </span>Community
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -32,7 +31,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute h-full w-full object-cover"
                 />
               </div>
 
