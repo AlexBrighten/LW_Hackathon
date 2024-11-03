@@ -31,31 +31,35 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-s text-center text-blue-100 max-w-120">
-            Initiated by SRMIST & Organized by Team LiveWires.
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[100vw] mt-[20px] lg:mt-[2px] lg:mb-[2px] flex flex-col items-center justify-center">
+          <p className="uppercase font-semibold tracking-widest text-xs lg:text-xl text-center text-blue-100 max-w-120">
+            Powered by SRMIST & Team LiveWires
           </p>
 
           <TextGenerateEffect
-            words="HackFinity 1.0"
-            className="text-center text-[48px] md:text-6xl lg:text-8xl"
+            words="Hackfinity - Innovate for Quality Education"
+            className="text-center text-2xl md:text-4xl lg:text-6xl "
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            03rd & 04th December 2024 | Venue : FSH, SRMIST
+          <p className="text-center md:tracking-wider mb-[60px] lg:mb-[10px] text-sm md:text-lg lg:text-2xl">
+            December 3-4, 2024 | SRMIST, Chennai
           </p>
 
           <div className="flex">
             <a href="#about" className="mx-5">
               <MagicButton
-                title="Show my work"
+                title="Register Now"
                 icon={<FaLocationArrow />}
                 position="right"
               />
             </a>
 
-            <a href="#about">
-              <SponserButton title="Be a Sponser" icon={""} position="right" />
+            <a href="#sponsors">
+              <SponserButton
+                title="Become a Sponsor"
+                icon={""}
+                position="right"
+              />
             </a>
           </div>
         </div>
