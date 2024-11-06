@@ -79,7 +79,7 @@ export const projects = [
     title: "Join Our Discord Community",
     des: "Networks, Q&As, and discussions all in one place!",
     img: "/p1.svg",
-    link: "https://www.google.com",
+    link: "https://discord.gg/AbfuxXNYZ7",
   },
   {
     id: 2,
