@@ -11,24 +11,51 @@ const FAQSection: React.FC = () => {
   // Define the FAQ data array
   const faqData: FAQItem[] = [
     {
-      question: "What is the purpose of this website?",
+      question: "When is Hackfinity being held?",
       answer:
-        "Our website provides solutions for online conference management, with features like registration, speaker management, and more.",
+        "Hackfinity 2024 will be held on December 3-4, 2024, at SRM Institute of Science and Technology, Chennai.",
     },
     {
-      question: "How do I register?",
+      question: "Who can participate in Hackfinity?",
       answer:
-        "Click on 'Get Started' on the home page. A pop-up will guide you through registration or login.",
+        "Hackfinity is open to students from all academic backgrounds. Participants can join individually or in teams of 1 to 4 members.",
     },
     {
-      question: "Can I use my email to log in?",
+      question: "When does the hackathon registration close?",
       answer:
-        "Yes, you can use your email for login authentication to access the dashboard.",
+        "Registration for Hackfinity opens on November 10, 2024, and closes on December 2, 2024, at 11:59 PM (GMT+5:30).",
     },
     {
-      question: "What features are available for attendees?",
+      question: "Will I need a team to participate?",
       answer:
-        "Attendees can register, view sessions, receive reminders, and access virtual lounges.",
+        "You’re absolutely welcome to participate solo! However, it’s important to note that only teams can submit hackathon projects. A team can consist of 1 to 4 members. If you’re looking for a team or additional team members, we’ve allocated time on Day 1 of the hackathon specifically for team formation. We strongly encourage participants to collaborate with others and form teams during this period. Teaming up allows you to incorporate diverse skillsets and perspectives into your project, enhancing your overall experience!",
+    },
+    {
+      question: "Do all of my team members have to register for hackfinity?",
+      answer:
+        "Yes! Anyone who wish to participate in hackbangalore must register individually.",
+    },
+    {
+      question:
+        "How many challenge statements can a team submit their project under?",
+      answer:
+        "A team can submit their project under 1 challenge statement only during each hackathon.",
+    },
+    {
+      question:
+        "What happens to the projects developed during the hackathon after the event?",
+      answer:
+        "Participants will wholly own the intellectual property rights to the projects they develop during the hackathon. There are no obligations for participants to share, license, or commercialize their projects. Your creations are yours to explore and develop as you see fit.",
+    },
+    {
+      question: "What are the judging criteria for the hackathon?",
+      answer:
+        "Projects will be judged based on the following criteria: creativity, technical complexity, design, and impact. We encourage participants to think creatively and develop projects that are innovative, technically sound, and have a positive impact on society.",
+    },
+    {
+      question: "Who can I contact if I have any questions?",
+      answer:
+        "Contact the Hackfinty team on the official Event Discord or at livewires@srmist.edu.in for further clarifications!",
     },
   ];
 
