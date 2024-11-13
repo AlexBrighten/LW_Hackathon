@@ -33,7 +33,7 @@ const FAQSection: React.FC = () => {
     {
       question: "Do all of my team members have to register for hackfinity?",
       answer:
-        "Yes! Anyone who wish to participate in hackbangalore must register individually.",
+        "Yes! Anyone who wish to participate in hackfinity must register individually.",
     },
     {
       question:
