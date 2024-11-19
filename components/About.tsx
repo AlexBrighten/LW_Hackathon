@@ -33,7 +33,7 @@ const Grid = () => {
                 pressing challenges in education. Whether you’re here to win
                 part of the 25 thousand INR prize pool or to connect with
                 like-minded innovators, Hackfinity is the place to share ideas
-                and create something extraordinary.
+                and create something extraordinary. 
               </p>
               <p style={{ marginBottom: "1rem" }}>
                 So gather your tools, bring your brightest ideas, and let’s
