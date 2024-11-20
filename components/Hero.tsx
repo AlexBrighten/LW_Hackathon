@@ -32,6 +32,10 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[100vw] mt-[60px] lg:mt-[2px] lg:mb-[2px] flex flex-col items-center justify-center">
+          <div>
+            <img src="/SDG.svg" alt="SDG" />
+          </div>
+
           <p className="uppercase font-semibold tracking-widest text-xs lg:text-xl text-center text-blue-100 max-w-120">
             Powered by SRMIST & Team LiveWires
           </p>
