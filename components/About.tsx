@@ -134,6 +134,8 @@ const Grid = () => {
               <li><strong>Date:</strong> December 5th</li>
               <li><strong>Time:</strong> 5:00 PM</li>
               <li><strong>Venue:</strong> TPG Main Auditorium</li>
+              <li>SRM Institute of Science and Technology</li>
+              <li>Kattankulathur Campus</li>
             </ul>
             </>
           }
