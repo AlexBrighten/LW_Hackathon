@@ -200,14 +200,12 @@ const Grid = () => {
             description={
               <>
                 <ul className=" text-center mt-10">
-                  <li>Each participant should register individually.</li>
-                  <li>
+                  <li className="text-lg">Each participant should register individually.</li>
+                  <li className="text-lg mt-9">
                     You can form a team with a minimum of 2 members and a
                     maximum of 4 participants.
                   </li>
-                  <li>
-                    You can form your team on the spot at the hackathon venue.
-                  </li>
+
                 </ul>
               </>
             }
