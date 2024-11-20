@@ -4,6 +4,7 @@ import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 const Grid = () => {
   return (
     <div>
+      {/* About Section */}
       <section id="about">
         <BentoGrid className="w-full py-10">
           <BentoGridItem
@@ -48,106 +49,15 @@ const Grid = () => {
         </BentoGrid>
       </section>
 
-      <section id="">
-        <BentoGrid className="w-full py-10">
-          <BentoGridItem
-            id={8}
-            title="Hackathon Schedule"
-            description={
-              <>
-                <ul className="mt-6 text-center ">
-                  <li className="text-xl mb-5">
-                    <strong>Day 1:</strong>
-                  </li>
-                  <ul className="gap-5  mb-10">
-                    <li>
-                      <strong>Start Time:</strong> December 3rd, 11:00 AM
-                    </li>
-                    <li>
-                      <strong>End Time:</strong> December 3rd, 5:00 PM
-                      (Hackathon Pause)
-                    </li>
-                    <br />
-                    <br />
-                    <li className="font-extrabold text-xl">
-                      Participants can leave and return the next day.
-                    </li>
-                  </ul>
-                  <li className="text-xl mb-5">
-                    <strong>Day 2:</strong>
-                  </li>
-                  <ul className="gap-5 mb-10">
-                    <li>
-                      <strong>Resume Time:</strong> December 4th, 8:30 AM
-                    </li>
-                    <li>
-                      <strong>End Time:</strong> December 4th, 11:00 AM
-                    </li>
-                  </ul>
-                </ul>
-              </>
-            }
-            className="lg:col-span-6 md:col-span-3 md:row-span-1"
-            titleClassName="justify-center md:max-w-full max-w-full text-center"
-          />
-        </BentoGrid>
-      </section>
-      <section id="">
-        <BentoGrid className="w-full py-10">
-          <BentoGridItem
-            id={9}
-            title="Venue"
-            description={
-              <>
-                <ul className="text-center gap-10">
-                  <li> Lab No. 402</li>
-                  <li>4th Floor</li>
-                  <li>FSH Block-1</li>
-                  <li>SRM Institute of Science and Technology</li>
-                  <li>Kattankulathur Campus</li>
-                </ul>
-              </>
-            }
-            className="lg:col-span-6 md:col-span-3 md:row-span-1"
-            titleClassName="justify-center md:max-w-full max-w-full text-center"
-          />
-        </BentoGrid>
-      </section>
-      <section id="">
-        <BentoGrid className="w-full py-10">
-          <BentoGridItem
-            id={10}
-            title=" Winners and runners-up will be revealed on "
-            description={
-              <>
-                <ul className=" text-center mt-10">
-                  <li>
-                    <strong>Date:</strong> December 5th
-                  </li>
-                  <li>
-                    <strong>Time:</strong> 5:00 PM
-                  </li>
-                  <li>
-                    <strong>Venue:</strong> TPG Main Auditorium
-                  </li>
-                  <li>SRM Institute of Science and Technology</li>
-                  <li>Kattankulathur Campus</li>
-                </ul>
-              </>
-            }
-            className="lg:col-span-6 md:col-span-3 md:row-span-1"
-            titleClassName="justify-center md:max-w-full max-w-full text-center"
-          />
-        </BentoGrid>
-      </section>
-      <section id="">
+      {/* Registration Section */}
+      {/* <section id="registration">
         <BentoGrid className="w-full py-10">
           <BentoGridItem
             id={11}
-            title="Registration details "
+            title="Registration Details"
             description={
               <>
-                <ul className=" text-center mt-10">
+                <ul className="text-center mt-10">
                   <li className="text-lg">
                     Each participant should register individually.
                   </li>
@@ -162,7 +72,7 @@ const Grid = () => {
             titleClassName="justify-center md:max-w-full max-w-full text-center"
           />
         </BentoGrid>
-      </section>
+      </section> */}
     </div>
   );
 };

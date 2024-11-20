@@ -8,7 +8,7 @@ const Experience = () => {
     <div className="py-20 w-full">
       <h1 className="heading">
         My <span className="text-purple">Perks of Registering in</span>
-        <span className="text-purple">SDG-4 (Quality Education)</span>
+        <span className="text-purple"> SDG-4 (Quality Education)</span>
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
