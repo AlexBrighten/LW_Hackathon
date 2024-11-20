@@ -7,8 +7,13 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        Themes <br />{" "}
-        <span className="text-purple mt-18 text-xl font-regular">
+        Themes <br /><br />{" "}
+        <span className="text-purple mt-18 text-4xl font-regular animate-pulse">
+           Tech Driven Solutions for Quality Education
+        </span>
+        <br />
+        <br />
+        <span className="text-white mt-18 text-xl font-regular">
           ( Hover to Discover the Tracks )
         </span>
       </h1>
