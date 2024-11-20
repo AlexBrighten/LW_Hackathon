@@ -17,7 +17,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Join Hackfinity to make{" "}
+          Join Hackfinity to make
           <span className="text-purple">quality education</span> for all.
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
@@ -31,6 +31,14 @@ const Footer = () => {
             position="right"
           />
         </a>
+        <div className="mt-[70px]">
+          <h1 className="heading lg:max-w-[45vw]">Contact</h1>
+          <p className="text-white-200 md:mt-10 my-2 text-center font-extrabold">
+            For any queries, feel free to reach out to us.
+          </p>
+          <p className="text-white-200 mt-5 text-center">Alex Job - 7448573606</p>
+          <p className="text-white-200 text-center">Mohammed Vaseem - 8608252352</p>
+        </div>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-center items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
