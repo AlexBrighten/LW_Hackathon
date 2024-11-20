@@ -175,29 +175,43 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Access to All 17 SDG Events",
+    desc: "Participate in all SDG events, gaining a comprehensive understanding of global challenges and solutions.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Certifications and Recognitions",
+    desc: "Earn globally acknowledged certificates that enhance your personal and professional profile.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Cultural Events Participation",
+    desc: "Experience diverse cultural events celebrating art, music, and traditions.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Networking Opportunities",
+    desc: "Connect with changemakers and leaders, fostering collaboration and expanding your network.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 5,
+    title: "Art and IoT Expo",
+    desc: "Explore innovative exhibitions showcasing the blend of technology and creativity.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 6,
+    title: "Skill-Building Workshops",
+    desc: "Join workshops covering technical, creative, and leadership skills led by industry experts.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

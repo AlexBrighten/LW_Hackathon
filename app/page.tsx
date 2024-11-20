@@ -20,11 +20,12 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <About />
+        <Experience />
         <Approach />
         <Grid />
         <RecentProjects />
         {/* <Clients /> */}
-        {/* <Experience /> */}
+
         <FAQSection />
         <Footer />
       </div>

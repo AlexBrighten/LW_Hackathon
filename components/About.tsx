@@ -47,59 +47,7 @@ const Grid = () => {
           />
         </BentoGrid>
       </section>
-      <section id="">
-        <BentoGrid className="w-full py-10">
-          <BentoGridItem
-            id={7}
-            title="Perks of Registering in SDG-4 (Quality Education)"
-            description={
-              <>
-                {/* <h1 className="text-center text-2xl font-bold py-5">Perks of Registering in SDG-4 (Quality Education)</h1> */}
 
-                <ul className="mt-10">
-                  <li>
-                    <strong>Access to All 17 SDG Events</strong>: Participate in
-                    all SDG events, gaining a comprehensive understanding of
-                    global challenges and solutions.
-                  </li>
-                  <li>
-                    <strong>Certifications and Recognitions</strong>: Earn
-                    globally acknowledged certificates that enhance your
-                    personal and professional profile.
-                  </li>
-                  <li>
-                    <strong>Cultural Events Participation</strong>: Experience
-                    diverse cultural events celebrating art, music, and
-                    traditions.
-                  </li>
-                  <li>
-                    <strong>Networking Opportunities</strong>: Connect with
-                    changemakers and leaders, fostering collaboration and
-                    expanding your network.
-                  </li>
-                  <li>
-                    <strong>Art and IoT Expo</strong>: Explore innovative
-                    exhibitions showcasing the blend of technology and
-                    creativity.
-                  </li>
-                  <li>
-                    <strong>Skill-Building Workshops</strong>: Join workshops
-                    covering technical, creative, and leadership skills led by
-                    industry experts.
-                  </li>
-                  <li>
-                    <strong>Global Exposure and Learning</strong>: Gain insights
-                    into international strategies and practices for quality
-                    education.
-                  </li>
-                </ul>
-              </>
-            }
-            className="lg:col-span-6 md:col-span-3 md:row-span-1"
-            titleClassName="justify-center md:max-w-full max-w-full text-center"
-          />
-        </BentoGrid>
-      </section>
       <section id="">
         <BentoGrid className="w-full py-10">
           <BentoGridItem
@@ -200,12 +148,13 @@ const Grid = () => {
             description={
               <>
                 <ul className=" text-center mt-10">
-                  <li className="text-lg">Each participant should register individually.</li>
+                  <li className="text-lg">
+                    Each participant should register individually.
+                  </li>
                   <li className="text-lg mt-9">
                     You can form a team with a minimum of 2 members and a
                     maximum of 4 participants.
                   </li>
-
                 </ul>
               </>
             }
@@ -217,6 +166,5 @@ const Grid = () => {
     </div>
   );
 };
-
 
 export default Grid;
