@@ -5,11 +5,12 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full pt-20 pt-3">
       <h1 className="heading">
-        Themes <br /><br />{" "}
-        <span className="text-purple mt-18 text-4xl font-regular animate-pulse">
-           Tech Driven Solutions for Quality Education
+        Themes <br />
+        <br />{" "}
+        <span className="text-purple mt-8 text-4xl font-regular animate-pulse">
+          Tech Driven Solutions for Quality Education
         </span>
         <br />
         <br />

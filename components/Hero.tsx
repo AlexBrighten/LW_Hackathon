@@ -63,7 +63,7 @@ const Hero = () => {
 
             <a href="https://drive.google.com/file/d/15rAElCpr0TiT0U1amOnbMh2SBvIcN7Hm/view?usp=sharing">
               <SponserButton
-                title="Become a Sponsor"
+                title="Registration Guide"
                 icon={""}
                 position="right"
               />
