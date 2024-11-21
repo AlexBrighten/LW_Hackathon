@@ -34,8 +34,6 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[100vw] mt-[60px] lg:mt-[2px] lg:mb-[2px] flex flex-col items-center justify-center">
           <div className="flex gap-40  mb-10">
             <img src="/SDG.png" alt="SDG Logo" className="w-auto h-24 mx-2" />
-            {/*<img src="/SRM.png" alt="SRM Logo" className="w-auto h-24  mx-2" />
-            <img src="/sdg4.png" alt="SRM Logo" className="w-auto h-24  mx-2" />*/}
           </div>
           <p className="uppercase font-semibold tracking-widest text-xs lg:text-xl text-center text-blue-100 max-w-120">
             Powered by SRMIST & Team LiveWires
@@ -46,7 +44,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-[40px] lg:mb-[10px] text-sm md:text-lg lg:text-2xl">
-            December 3-4, 2024 | SRMIST, Chennai
+            December 3-4, 2024 | FSH, SRMIST
           </p>
 
           <div className="flex">
@@ -61,7 +59,7 @@ const Hero = () => {
               />
             </a>
 
-            <a href="https://drive.google.com/file/d/15rAElCpr0TiT0U1amOnbMh2SBvIcN7Hm/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1zxEpCm6qIVv7PoCpsarrkgTBZ4TurMix/view?usp=sharing">
               <SponserButton
                 title="Registration Guide"
                 icon={""}
