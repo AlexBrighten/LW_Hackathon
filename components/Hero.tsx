@@ -59,7 +59,7 @@ const Hero = () => {
               />
             </a>
 
-            <a href="https://drive.google.com/file/d/1zxEpCm6qIVv7PoCpsarrkgTBZ4TurMix/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1wmQUnNGCi1uXFV-zzHvd6xDcfDTV7Rtx/view?usp=sharing">
               <SponserButton
                 title="Registration Guide"
                 icon={""}
