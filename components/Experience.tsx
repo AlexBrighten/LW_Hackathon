@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <div className="py-20 w-full text-2xl md:text-6xl lg:text-6xl">
       <h1 className="heading">
-        Perks of Registering<span className="text-purple"> in Hackfnity</span>
+        Perks of Registering<span className="text-purple"> in Hackfinity</span>
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
