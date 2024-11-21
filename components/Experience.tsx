@@ -5,10 +5,9 @@ import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
   return (
-    <div className="py-20 w-full">
+    <div className="py-20 w-full text-2xl md:text-6xl lg:text-6xl">
       <h1 className="heading">
-        My <span className="text-purple">Perks of Registering in</span>
-        <span className="text-purple"> SDG-4 (Quality Education)</span>
+        Perks of Registering<span className="text-purple"> in Hackfnity</span>
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
