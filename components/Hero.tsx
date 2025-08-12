@@ -48,20 +48,9 @@ const Hero = () => {
           </p>
 
           <div className="flex">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdhmV0XuK2jxgJNUtnXb7dJxz9vXU7FqwVzLlFBMuIVhGlDxw/viewform"
-              className="mx-5"
-            >
+            <a className="mx-5">
               <MagicButton
-                title="Register Now"
-                icon={<FaLocationArrow />}
-                position="right"
-              />
-            </a>
-
-            <a href="https://drive.google.com/file/d/1KVxb6ItZBkO2EojW3yaknvKRDtZ2su8e/view?usp=sharing">
-              <SponserButton
-                title="Registration Guide"
+                title="Register Closed !"
                 icon={""}
                 position="right"
               />
